@@ -1,0 +1,8 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-cron
+  role_short: cron
+  role_description: |
+    Installs & manages cron 
