@@ -1,0 +1,7 @@
+---
+
+# list of cron packages (see vars/ for OS specific file)
+cron_packages: []
+
+# name of the cron service (see vars/ for OS specific file)
+cron_service: cron

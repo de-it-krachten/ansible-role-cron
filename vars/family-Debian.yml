@@ -1,0 +1,6 @@
+---
+
+cron_packages:
+  - cron
+
+cron_service: cron
