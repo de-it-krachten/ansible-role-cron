@@ -1,7 +1,7 @@
 ---
 
 - name: Load variables based on OS type
-  include_vars: "{{ lookup('first_found', params) }}"
+  ansible.builtin.include_vars: "{{ lookup('first_found', params) }}"
   vars:
     params:
       files:
@@ -14,12 +14,12 @@
         - "vars"
 
 - name: Install packages
-  package:
+  ansible.builtin.package:
     name: "{{ cron_packages }}"
     state: present
 
 - name: Start/enable daemon
-  service:
+  ansible.builtin.service:
     name: "{{ cron_service }}"
     state: started
     enabled: true
