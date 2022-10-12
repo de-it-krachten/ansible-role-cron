@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.1.0...v1.2.0) (2022-10-12)
+
+
+### Features
+
+* Move to FQCN ([858405c](https://github.com/de-it-krachten/ansible-role-cron/commit/858405cf5d110019085259ed0318575b5cb573d7))
+* Update CI to latest standards ([ce7b202](https://github.com/de-it-krachten/ansible-role-cron/commit/ce7b202a8ac4ba9069902c52de155a7f698162be))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.0.0...v1.1.0) (2022-07-28)
 
 
