@@ -5,6 +5,15 @@
 
 Installs & manages cron
 
+
+## Dependencies
+
+#### Roles
+None
+
+#### Collections
+- community.general
+
 ## Platforms
 
 Supported platforms
@@ -39,6 +48,7 @@ cron_packages: []
 cron_service: cron
 </pre></code>
 
+
 ### vars/family-RedHat.yml
 <pre><code>
 cron_packages:
@@ -65,6 +75,6 @@ cron_service: cron
   become: "{{ molecule['converge']['become'] | default('yes') }}"
   tasks:
     - name: Include role 'cron'
-      include_role:
+      ansible.builtin.include_role:
         name: cron
 </pre></code>
