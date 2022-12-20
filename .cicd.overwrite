@@ -5,4 +5,10 @@ generic:
   role: ansible-role-cron
   role_short: cron
   role_description: |
-    Installs & manages cron 
+    Installs & manages cron
+  collections: []
+
+# Dependencies
+dependencies:
+  roles: []
+  collections: []
