@@ -6,6 +6,7 @@
 Installs & manages cron
 
 
+
 ## Dependencies
 
 #### Roles
@@ -25,6 +26,7 @@ Supported platforms
 - RockyLinux 8
 - RockyLinux 9
 - OracleLinux 8
+- OracleLinux 9
 - AlmaLinux 8
 - AlmaLinux 9
 - Debian 10 (Buster)
@@ -72,7 +74,7 @@ cron_service: cron
 <pre><code>
 - name: sample playbook for role 'cron'
   hosts: all
-  become: "{{ molecule['converge']['become'] | default('yes') }}"
+  become: "yes"
   tasks:
     - name: Include role 'cron'
       ansible.builtin.include_role:
