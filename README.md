@@ -51,20 +51,20 @@ cron_service: cron
 </pre></code>
 
 
-### vars/family-RedHat.yml
-<pre><code>
-cron_packages:
-  - cronie
-
-cron_service: crond
-</pre></code>
-
 ### vars/family-Debian.yml
 <pre><code>
 cron_packages:
   - cron
 
 cron_service: cron
+</pre></code>
+
+### vars/family-RedHat.yml
+<pre><code>
+cron_packages:
+  - cronie
+
+cron_service: crond
 </pre></code>
 
 
