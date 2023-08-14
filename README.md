@@ -29,13 +29,15 @@ Supported platforms
 - OracleLinux 9
 - AlmaLinux 8
 - AlmaLinux 9
-- Debian 10 (Buster)
+- SUSE Linux Enterprise 15<sup>1</sup>
+- openSUSE Leap 15
+- Debian 10 (Buster)<sup>1</sup>
 - Debian 11 (Bullseye)
-- Ubuntu 18.04 LTS
+- Debian 12 (Bookworm)
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
-- Fedora 36
 - Fedora 37
+- Fedora 38
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -50,22 +52,36 @@ cron_packages: []
 cron_service: cron
 </pre></code>
 
-
-### vars/family-Debian.yml
+### defaults/family-Debian.yml
 <pre><code>
+# List of required OS packages
 cron_packages:
   - cron
 
+# Service name
 cron_service: cron
 </pre></code>
 
-### vars/family-RedHat.yml
+### defaults/family-Suse.yml
 <pre><code>
+# List of required OS packages
 cron_packages:
   - cronie
 
+# Service name
+cron_service: cron
+</pre></code>
+
+### defaults/family-RedHat.yml
+<pre><code>
+# List of required OS packages
+cron_packages:
+  - cronie
+
+# Service name
 cron_service: crond
 </pre></code>
+
 
 
 

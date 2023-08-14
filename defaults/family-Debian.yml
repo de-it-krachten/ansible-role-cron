@@ -1,6 +1,8 @@
 ---
 
+# List of required OS packages
 cron_packages:
   - cron
 
+# Service name
 cron_service: cron
