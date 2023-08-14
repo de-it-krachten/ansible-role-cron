@@ -52,22 +52,36 @@ cron_packages: []
 cron_service: cron
 </pre></code>
 
-
-### vars/family-Debian.yml
+### defaults/family-Debian.yml
 <pre><code>
+# List of required OS packages
 cron_packages:
   - cron
 
+# Service name
 cron_service: cron
 </pre></code>
 
-### vars/family-RedHat.yml
+### defaults/family-Suse.yml
 <pre><code>
+# List of required OS packages
 cron_packages:
   - cronie
 
+# Service name
+cron_service: cron
+</pre></code>
+
+### defaults/family-RedHat.yml
+<pre><code>
+# List of required OS packages
+cron_packages:
+  - cronie
+
+# Service name
 cron_service: crond
 </pre></code>
+
 
 
 
