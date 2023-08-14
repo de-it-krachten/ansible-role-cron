@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.3.0...v1.4.0) (2023-08-14)
+
+
+### Bug Fixes
+
+* Fix support for (Open)SUSE ([0421711](https://github.com/de-it-krachten/ansible-role-cron/commit/0421711344b3d28dcced278008c4aeb3a41194da))
+
+
+### Features
+
+* Update supported platforms & CI ([a177106](https://github.com/de-it-krachten/ansible-role-cron/commit/a177106809d554864ce8c2f043bb78a0c041a6a3))
+
 # [1.3.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.2.0...v1.3.0) (2023-01-12)
 
 
