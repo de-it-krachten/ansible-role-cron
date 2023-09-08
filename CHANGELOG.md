@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.4.0...v1.4.1) (2023-09-08)
+
+
+### Bug Fixes
+
+* Fix loop label to string ([1442e6b](https://github.com/de-it-krachten/ansible-role-cron/commit/1442e6b09c6f6a83eb5301c3c09aa556dbad65dc))
+
 # [1.4.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.3.0...v1.4.0) (2023-08-14)
 
 
