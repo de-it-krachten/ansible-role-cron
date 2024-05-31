@@ -13,7 +13,7 @@ Installs & manages cron
 None
 
 #### Collections
-- community.general
+None
 
 ## Platforms
 
@@ -31,13 +31,13 @@ Supported platforms
 - AlmaLinux 9
 - SUSE Linux Enterprise 15<sup>1</sup>
 - openSUSE Leap 15
-- Debian 10 (Buster)<sup>1</sup>
 - Debian 11 (Bullseye)
 - Debian 12 (Bookworm)
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
-- Fedora 37
-- Fedora 38
+- Ubuntu 24.04 LTS
+- Fedora 39
+- Fedora 40
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -62,16 +62,6 @@ cron_packages:
 cron_service: cron
 </pre></code>
 
-### defaults/family-Suse.yml
-<pre><code>
-# List of required OS packages
-cron_packages:
-  - cronie
-
-# Service name
-cron_service: cron
-</pre></code>
-
 ### defaults/family-RedHat.yml
 <pre><code>
 # List of required OS packages
@@ -82,6 +72,16 @@ cron_packages:
 cron_service: crond
 </pre></code>
 
+### defaults/family-Suse.yml
+<pre><code>
+# List of required OS packages
+cron_packages:
+  - cronie
+
+# Service name
+cron_service: cron
+</pre></code>
+
 
 
 
@@ -90,7 +90,7 @@ cron_service: crond
 <pre><code>
 - name: sample playbook for role 'cron'
   hosts: all
-  become: "yes"
+  become: 'yes'
   tasks:
     - name: Include role 'cron'
       ansible.builtin.include_role:
