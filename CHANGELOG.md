@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.4.1...v1.5.0) (2024-06-01)
+
+
+### Features
+
+* Add support for Ubuntu 24.04 LTS + Fedora 40 ([1ea2a3c](https://github.com/de-it-krachten/ansible-role-cron/commit/1ea2a3c6acf24037d0321428b7b4aee9507d1c4b))
+
 ## [1.4.1](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.4.0...v1.4.1) (2023-09-08)
 
 
