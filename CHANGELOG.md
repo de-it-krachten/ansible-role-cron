@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.5.0...v1.6.0) (2024-12-29)
+
+
+### Features
+
+* Update supported platforms & CI ([e4abafd](https://github.com/de-it-krachten/ansible-role-cron/commit/e4abafdf64301b10f80c2592687c56469e209a1b))
+
 # [1.5.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.4.1...v1.5.0) (2024-06-01)
 
 
