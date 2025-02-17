@@ -6,3 +6,9 @@ cron_packages:
 
 # Service name
 cron_service: crond
+
+# Configuration file
+cron_config_file: /etc/sysconfig/crond
+
+# Cunstom config lines to inset into 'cron_config_file'
+cron_custom_config: []

@@ -9,6 +9,15 @@
     state: present
   loop: "{{ cron_packages }}"
 
+- name: Set custom configuration
+  ansible.builtin.lineinfile:
+    path: "{{ cron_config_file }}"
+    line: "{{ item }}"
+    regex: "{{ item | replace('=.*', '=.*') }}"
+  loop: "{{ cron_custom_config | default([]) }}"
+  when: cron_config_file is defined
+  notify: Restart cron
+
 - name: Start/enable daemon
   ansible.builtin.service:
     name: "{{ cron_service }}"
