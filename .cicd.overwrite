@@ -12,3 +12,13 @@ generic:
 dependencies:
   roles: []
   collections: []
+
+# Molecule
+molecule:
+  converge:
+    vars: {}
+  host_vars_static:
+    cron-rockylinux8-node1:
+      cron_custom_config:
+        - { key: TZ, value: 'Europe/Helsinki' }
+   
