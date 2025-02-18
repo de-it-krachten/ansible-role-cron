@@ -58,6 +58,12 @@ cron_packages:
 
 # Service name
 cron_service: cron
+
+# Configuration file
+cron_config_file: /etc/default/cron
+
+# Cunstom config lines to inset into 'cron_config_file'
+cron_custom_config: []
 </pre></code>
 
 ### defaults/family-RedHat.yml
@@ -68,6 +74,12 @@ cron_packages:
 
 # Service name
 cron_service: crond
+
+# Configuration file
+cron_config_file: /etc/sysconfig/crond
+
+# Cunstom config lines to inset into 'cron_config_file'
+cron_custom_config: []
 </pre></code>
 
 ### defaults/family-Suse.yml
@@ -78,6 +90,12 @@ cron_packages:
 
 # Service name
 cron_service: cron
+
+# Configuration file
+cron_config_file: /etc/sysconfig/crond
+
+# Cunstom config lines to inset into 'cron_config_file'
+cron_custom_config: []
 </pre></code>
 
 

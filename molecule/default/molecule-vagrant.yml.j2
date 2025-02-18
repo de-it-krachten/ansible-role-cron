@@ -63,7 +63,12 @@ provisioner:
     converge: ${MOLECULE_PLAYBOOK:-converge.yml}
   inventory:
     group_vars: {"linux": {"ansible_user": "vagrant", "ansible_password": "vagrant"}, "windows": {"ansible_user": "vagrant", "ansible_password": "vagrant", "ansible_become_user": "vagrant", "ansible_become_method": "runas", "ansible_connection": "ssh", "ansible_shell_type": "cmd"}}
-    host_vars: {}
+    host_vars:
+      cron-rockylinux8-node1:
+        cron_custom_config:
+        - key: TZ
+          value: Europe/Helsinki
+
 scenario:
   name: default
 verifier:
