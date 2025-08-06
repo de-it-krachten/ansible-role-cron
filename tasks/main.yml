@@ -3,23 +3,8 @@
 - name: Load variables based on OS type
   ansible.builtin.include_tasks: vars.yml
 
-- name: Install packages
-  ansible.builtin.package:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ cron_packages }}"
+- name: Install phase
+  ansible.builtin.include_tasks: install.yml
 
-- name: Set custom configuration
-  ansible.builtin.lineinfile:
-    path: "{{ cron_config_file }}"
-    line: "{{ item }}"
-    regex: "{{ item | replace('=.*', '=.*') }}"
-  loop: "{{ cron_custom_config | default([]) }}"
-  when: cron_config_file is defined
-  notify: Restart cron
-
-- name: Start/enable daemon
-  ansible.builtin.service:
-    name: "{{ cron_service }}"
-    state: started
-    enabled: true
+- name: Config phase
+  ansible.builtin.include_tasks: config.yml
