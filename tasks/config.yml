@@ -1,0 +1,10 @@
+---
+
+- name: Set custom configuration
+  ansible.builtin.lineinfile:
+    path: "{{ cron_config_file }}"
+    line: "{{ item.key }}={{ item.value }}"
+    regex: "{{ item.key }}=.*"
+  loop: "{{ cron_custom_config | default([]) }}"
+  when: cron_config_file is defined and cron_custom_config | length > 0
+  notify: Restart cron
