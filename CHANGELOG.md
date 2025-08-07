@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.6.0...v1.7.0) (2025-08-07)
+
+
+### Features
+
+* Add support for AlmaLinux 10 ([c589e32](https://github.com/de-it-krachten/ansible-role-cron/commit/c589e325fe263192d6d71557aee2b537183929e1))
+* Add support for custom configuration ([12026fd](https://github.com/de-it-krachten/ansible-role-cron/commit/12026fd5638cfb1e9b30612d4954463bb6f0706f))
+* Add support for custom configuration ([5a6392f](https://github.com/de-it-krachten/ansible-role-cron/commit/5a6392ff295b865c8e2e97cd56dfd1bed3f2e7e9))
+* Add support for Debian 13 (Trixie) ([30886c4](https://github.com/de-it-krachten/ansible-role-cron/commit/30886c436255b2c24e8746e05400320462068113))
+* Add support for OracleLinux 10 ([ed60af6](https://github.com/de-it-krachten/ansible-role-cron/commit/ed60af6e59b9b8fdc5b6e6900010293ec4b661b7))
+* Add support for Red Hat Enterprise Linux 10 ([24b40fe](https://github.com/de-it-krachten/ansible-role-cron/commit/24b40fe3e65fa3a8f187565fd674deb50607c7b2))
+* Add support for RockyLinux 10 ([3f0bc33](https://github.com/de-it-krachten/ansible-role-cron/commit/3f0bc33c628fbe9d1bdd068bb5a656928120d0cf))
+
 # [1.6.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.5.0...v1.6.0) (2024-12-29)
 
 
