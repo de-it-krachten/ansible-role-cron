@@ -1,3 +1,13 @@
+# [1.8.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.7.0...v1.8.0) (2026-03-14)
+
+
+### Features
+
+* Added support for Fedora 43 ([accb360](https://github.com/de-it-krachten/ansible-role-cron/commit/accb3600575ee964bc0d7da0b8fc0bf57fbc9e19))
+* Added support for openSUSE Leap 16 ([1cb72a7](https://github.com/de-it-krachten/ansible-role-cron/commit/1cb72a7242d7df84ab7e349aa44a897efcac5edb))
+* Added support for SUSE Linux Enterprise 16 ([d62aab9](https://github.com/de-it-krachten/ansible-role-cron/commit/d62aab9ada64f17e92c7461eaa0fbf47b1c65c24))
+* Drop support for Fedora 41 ([ae524cb](https://github.com/de-it-krachten/ansible-role-cron/commit/ae524cb1f95d3f4825ce3ca85b1111e8b93e55c1))
+
 # [1.7.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.6.0...v1.7.0) (2025-08-07)
 
 
