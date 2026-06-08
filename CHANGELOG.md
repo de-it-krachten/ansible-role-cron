@@ -1,3 +1,17 @@
+# [1.10.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.9.0...v1.10.0) (2026-06-08)
+
+
+### Bug Fixes
+
+* Standarize vars.yml ([bec5bce](https://github.com/de-it-krachten/ansible-role-cron/commit/bec5bce7ff2aa7350f5beea353ddaaeee253f1bd))
+
+
+### Features
+
+* Added support for Fedora 44 ([1d8116b](https://github.com/de-it-krachten/ansible-role-cron/commit/1d8116bc044d2498662669996ab82aa9261c3b6a))
+* Added support for Ubuntu 26.04 LTS ([da199ae](https://github.com/de-it-krachten/ansible-role-cron/commit/da199aefb4922d40260e9806c6a37c0fecdbaea2))
+* Drop support for Fedora 42 ([a9d2816](https://github.com/de-it-krachten/ansible-role-cron/commit/a9d281667357e9c5b02fe3c2947e8e3bf9e05eb2))
+
 # [1.9.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.8.0...v1.9.0) (2026-03-15)
 
 
