@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.10.0...v1.11.0) (2026-10-11)
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([33a7ae8](https://github.com/de-it-krachten/ansible-role-cron/commit/33a7ae8398e982088d5a3b5d25746ec7c7f9ad81))
+
 # [1.10.0](https://github.com/de-it-krachten/ansible-role-cron/compare/v1.9.0...v1.10.0) (2026-06-08)
 
 
